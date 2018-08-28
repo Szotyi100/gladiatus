@@ -1,0 +1,212 @@
+[
+  {
+    "description": "  As a Job searcher\n  I want to browser through EPAM Job offers by various criteria\n  So I can find to best fitting offer for me",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "EPAM job searching",
+    "tags": [],
+    "uri": "D:\\Repo\\cucumber-protractor-skeleton\\e2e\\features\\careerPage.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Searching for a job - Test Automation Engineer",
+        "tags": [],
+        "id": "epam-job-searching;searching-for-a-job---test-automation-engineer",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the career page is opened",
+            "result": {
+              "status": "passed",
+              "duration": 25602
+            },
+            "line": 7,
+            "match": {
+              "location": "D:\\Repo\\cucumber-protractor-skeleton\\e2e\\step_definitions\\careerPage.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the logo should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 19
+            },
+            "line": 8,
+            "match": {
+              "location": "D:\\Repo\\cucumber-protractor-skeleton\\e2e\\step_definitions\\careerPage.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the search form should be visible",
+            "result": {
+              "status": "failed",
+              "duration": 35,
+              "error_message": "NoSuchElementError: No element found using locator: By(css selector, .job-search__area)\n    at elementArrayFinder.getWebElements.then (D:\\Repo\\cucumber-protractor-skeleton\\node_modules\\protractor\\built\\element.js:814:27)\n    at ManagedPromise.invokeCallback_ (D:\\Repo\\cucumber-protractor-skeleton\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n    at TaskQueue.execute_ (D:\\Repo\\cucumber-protractor-skeleton\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (D:\\Repo\\cucumber-protractor-skeleton\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (D:\\Repo\\cucumber-protractor-skeleton\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n    at D:\\Repo\\cucumber-protractor-skeleton\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)Error\n    at ElementArrayFinder.applyAction_ (D:\\Repo\\cucumber-protractor-skeleton\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (D:\\Repo\\cucumber-protractor-skeleton\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.(anonymous function).args [as isDisplayed] (D:\\Repo\\cucumber-protractor-skeleton\\node_modules\\protractor\\built\\element.js:831:22)\n    at World.Then (D:\\Repo\\cucumber-protractor-skeleton\\e2e\\step_definitions\\careerPage.js:45:45)"
+            },
+            "line": 9,
+            "match": {
+              "location": "D:\\Repo\\cucumber-protractor-skeleton\\e2e\\step_definitions\\careerPage.js:44"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the country <country> is selected",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "match": {
+              "location": "D:\\Repo\\cucumber-protractor-skeleton\\e2e\\step_definitions\\careerPage.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the city <city> is selected",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "D:\\Repo\\cucumber-protractor-skeleton\\e2e\\step_definitions\\careerPage.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Debrecen should be selected in the location filter box",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "match": {
+              "location": "D:\\Repo\\cucumber-protractor-skeleton\\e2e\\step_definitions\\careerPage.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "Software Test Engineering is selected in the department filter box",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "match": {
+              "location": "D:\\Repo\\cucumber-protractor-skeleton\\e2e\\step_definitions\\careerPage.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Software Test Engineering should be selected in the department filter box",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "match": {
+              "location": "D:\\Repo\\cucumber-protractor-skeleton\\e2e\\step_definitions\\careerPage.js:52"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the search button is clicked on",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "match": {
+              "location": "D:\\Repo\\cucumber-protractor-skeleton\\e2e\\step_definitions\\careerPage.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "there should be a job offer for Test Automation Engineer position",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "match": {
+              "location": "D:\\Repo\\cucumber-protractor-skeleton\\e2e\\step_definitions\\careerPage.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the department of the Test Automation Engineer position should be Software Test Engineering",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "match": {
+              "location": "D:\\Repo\\cucumber-protractor-skeleton\\e2e\\step_definitions\\careerPage.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the location of the Test Automation Engineer position should be Debrecen, Hungary",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "match": {
+              "location": "D:\\Repo\\cucumber-protractor-skeleton\\e2e\\step_definitions\\careerPage.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the apply button of the Test Automation Engineer position should be visible",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "match": {
+              "location": "D:\\Repo\\cucumber-protractor-skeleton\\e2e\\step_definitions\\careerPage.js:70"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the apply button of the Test Automation Engineer position is clicked on",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "match": {
+              "location": "D:\\Repo\\cucumber-protractor-skeleton\\e2e\\step_definitions\\careerPage.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the description of the job offer should contain Test Automation Engineer",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the description of the job offer should contain Debrecen",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27
+          }
+        ]
+      }
+    ],
+    "id": "epam-job-searching"
+  }
+]
